@@ -1,8 +1,9 @@
 import React from 'react'
+import LogicPage from './components/Login'
 
 const App = () => {
   return (
-    <div>App</div>
+    <LogicPage/>
   )
 }
 
