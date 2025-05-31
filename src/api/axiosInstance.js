@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-    baseURL: import.meta.env.DEV_BACKEND_URL,
+    // baseURL: import.meta.env.DEV_BACKEND_URL,
+    baseURL: "http://localhost:9090",
     timeout: 10000, // 10 seconds
 });
 
