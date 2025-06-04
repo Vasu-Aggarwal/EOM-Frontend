@@ -4,9 +4,8 @@ import {
   QueryClientProvider,
   QueryClient
 } from '@tanstack/react-query'
-import RootLayout from './RootLayout.jsx'
 import { RouterProvider, createRouter } from '@tanstack/react-router'
-import { routeTree } from './routing/routeTree.js'
+import { routeTree } from './routing/routeTree'
 
 const queryClient = new QueryClient()
 const router = createRouter({ routeTree })

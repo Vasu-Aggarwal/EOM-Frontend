@@ -5,5 +5,5 @@ import { rootRoute } from "./routeTree";
 export const authRoute = createRoute({
     getParentRoute: () => rootRoute,
     path: "/auth",
-    component: () => Login,
+    component: Login,
 })
